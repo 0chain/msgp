@@ -1,4 +1,4 @@
-module github.com/tinylib/msgp
+module github.com/0chain/msgp
 
 go 1.20
 
