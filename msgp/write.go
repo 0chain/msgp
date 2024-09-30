@@ -5,6 +5,7 @@ import (
 	"io"
 	"math"
 	"reflect"
+	"sort"
 	"sync"
 	"time"
 )
@@ -810,4 +811,8 @@ func GuessSize(i interface{}) int {
 	default:
 		return 512
 	}
+}
+
+func Sort(vs []string) {
+	sort.Strings(vs)
 }
